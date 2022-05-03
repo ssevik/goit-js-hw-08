@@ -20,7 +20,7 @@ const watch = localStorage.getItem('videoplayer-current-time');
 
 if (watch) {
   player.setCurrentTime(watch);
-  localStorage.removeItem('videoplayer-current-time');
+
 }
 
 console.log('watch: ', watch);
